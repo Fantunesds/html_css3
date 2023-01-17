@@ -3,6 +3,8 @@ folha de esilo site one page site HTML5 e CSS3
 @outhor fantunesds
 
 */
+/*Importação google fonts*/
+@import url('https://fonts.googleapis.com/css2?family= Open+Sans:wght@400;800 & display = swap');
 
 /*CSS Reset*/
 *{
@@ -12,6 +14,17 @@ folha de esilo site one page site HTML5 e CSS3
 }
 
 
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* Layout */
+
+.Container{
+    margin: 0 auto;
+    background-color: bisque;
+}
 
 
 
@@ -22,12 +35,20 @@ folha de esilo site one page site HTML5 e CSS3
     body{
         background-color: #0ff;
     }
+    /* Layout */
+    .Container{
+        max-width: 540px;
+    }
 }
 
 /*tablet Portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 768px) {
     body{
         background-color: #ff0;
+    }
+     /* Layout */
+     .Container{
+        max-width: 720px;
     }
 }
 
@@ -36,12 +57,20 @@ folha de esilo site one page site HTML5 e CSS3
     body{
         background-color: #f60;
     }
+     /* Layout */
+     .Container{
+        max-width: 960px;
+    }
     
 }
 /*PC>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 1200px) {
     body{
         background-color: #f00;
+    }
+     /* Layout */
+     .Container{
+        max-width: 1140px;
     }
     
 }
