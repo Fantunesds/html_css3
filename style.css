@@ -4,6 +4,17 @@ folha de esilo site one page site HTML5 e CSS3
 
 */
 
+/*CSS Reset*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+
+
+
 /*Smartphone Portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 /*Smartphone landscape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
